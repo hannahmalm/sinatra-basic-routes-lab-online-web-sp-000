@@ -12,8 +12,8 @@ class App < Sinatra::Base
   end 
   
   get '/favorite-song' do 
-    favorite-song = "Hello"
-    "My favorite song is #{favorite-song}."
+    song = "Hello"
+    "My favorite song is #{song}."
   end 
   
   
